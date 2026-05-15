@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Introduction to AI",
+    "credits": 3,
+    "instructor": "Prof. Ozols"
+  },
+  {
+    "id": 2,
+    "name": "Data Structures",
+    "credits": 4,
+    "instructor": "Dr. Kalnins"
+  },
+  {
+    "id": 3,
+    "name": "Systems Analysis",
+    "credits": 3,
+    "instructor": "Prof. Berzins"
+  },
+  {
+    "id": 4,
+    "name": "Machine Learning",
+    "credits": 4,
+    "instructor": "Dr. Liepins"
+  },
+  {
+    "id": 5,
+    "name": "Software Engineering",
+    "credits": 3,
+    "instructor": "Prof. Ozols"
+  }
+]
