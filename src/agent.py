@@ -101,7 +101,8 @@ class ResearchAgent:
             conclusion=f"Generated report based on {len(self.session_results)} analysis components.",
         )
 
-        report_file = f"report_{argument.lower().replace(' ', '_')}.json"
+        safe_name = "".join(c for c in argument.lower() if c.isalnum() or c in " _-").strip().replace(" ", "_")
+        report_file = f"report_{safe_name}.json"
         export_result = self.report_generator.export_to_json(report, report_file)
 
         self.session_results["last_report"] = report
